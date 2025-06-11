@@ -1,5 +1,5 @@
 // Initialize array with sample string data
-let stringArray = ['books', 'dress', 'shoes', 'bikes', 'cars'];
+let stringArray = ['Honda', 'Yamaha', 'BMW', 'RE', 'Aprilia'];
 let operationCount = 0;
 
 // Update the display
@@ -218,7 +218,7 @@ function spliceArray() {
 }
 
 function resetArray() {
-    stringArray = ['books', 'dress', 'shoes', 'bikes', 'cars'];
+    stringArray = ['Honda', 'Yamaha', 'BMW', 'RE', 'Aprilia'];
     operationCount = 0;
     document.getElementById('operationLog').innerHTML = '<div class="log-entry">Array reset to initial state</div>';
     logOperation('reset()', 'Array initialized');
