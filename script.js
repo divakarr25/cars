@@ -1,5 +1,5 @@
 // Initialize array with sample string data
-let stringArray = ['Honda', 'Yamaha', 'BMW', 'RE', 'Aprilia'];
+let stringArray = ['books', 'dress', 'shoes', 'bikes', 'cars'];
 let operationCount = 0;
 
 // Update the display
